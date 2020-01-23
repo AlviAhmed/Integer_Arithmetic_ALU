@@ -14,5 +14,5 @@
 #+CAPTION: Screen Shot of Simulation in GTKwaves
 #+NAME:   fig:SED-HR4049
 [[./gtkwaves.png]]
-
+Screen Shot of Simulation in GTKwaves
 
