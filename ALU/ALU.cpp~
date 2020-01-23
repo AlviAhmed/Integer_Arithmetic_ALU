@@ -1,0 +1,27 @@
+//Alvi Ahmed 500696421 
+#include "ALU.h"
+
+ void alu_comp :: alu_comp_method() {     
+	 sc_int<8> output; 
+	 sc_int<8> output; 
+	 sc_int<8> ain; 
+	 sc_int<8> bin; 
+   	//module name :: implementing the function defined
+        cout << " Input A: " << A_input.read() <<", Input B: " << barrelshift_output.read() << ", Op Code: "  << op_code.read() << endl; 
+	if (enable.read() == 1){  //if the clock is on the positive edge trigger
+		
+	}
+        ain = A_input.read(); 
+        bin = barrelshift_output.read(); 
+	
+        if (op_code.read() == 1){  
+          output = ain + bin; 
+          aluout.write = output;
+        } 
+        if (op_code.read() == 0){  
+          output = ain - bin; 
+          aluout.write = output;
+        } 
+        cout << " Output: " <<  output.to_string(SC_BIN) << endl;
+    }
+ 

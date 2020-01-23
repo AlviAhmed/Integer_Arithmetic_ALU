@@ -1,0 +1,95 @@
+$date
+     Jan 22, 2020       21:03:15
+$end
+
+$version
+              SystemC 2.3.0-ASI --- Sep 10 2012 16:44:06
+$end
+
+$timescale
+     1 ns
+$end
+
+$scope module SystemC $end
+$var wire    8  aaa  A_input [7:0]  $end
+$var wire    8  aab  barrel_output_alu_input [7:0]  $end
+$var wire    1  aac  barrelshift_enable       $end
+$var wire    1  aad  barrelshift_left_right       $end
+$var wire    8  aae  Complete_Output [7:0]  $end
+$var wire    1  aaf  op_code_alu       $end
+$var wire    8  aag  Barrel_Input [7:0]  $end
+$var wire    3  aah  Shift_amount [2:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b1111 aaa
+b1010 aab
+1aac
+1aad
+b101 aae
+0aaf
+b10100 aag
+b1 aah
+$end
+
+#15
+b10100 aaa
+b100 aab
+0aac
+b11000 aae
+1aaf
+b100 aag
+
+#35
+b11110 aaa
+b1100 aab
+1aac
+0aad
+b101010 aae
+b11 aag
+b10 aah
+
+#55
+b101000 aaa
+b101000 aab
+b0 aae
+0aaf
+b1010 aag
+
+#75
+b110010 aaa
+0aac
+1aad
+b1010 aae
+b1 aah
+
+#95
+b111100 aaa
+b1 aab
+b111101 aae
+1aaf
+b1 aag
+
+#115
+b1010 aaa
+b100000 aab
+1aac
+0aad
+b101010 aae
+b10 aag
+b100 aah
+
+#135
+b0 aaa
+b0 aab
+0aac
+b0 aae
+0aaf
+b0 aag
+b0 aah
+
