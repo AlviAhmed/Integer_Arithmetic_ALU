@@ -1,2 +1,10 @@
-* Integer_Arithmetic_ALU 
-** testing testing 1 2 3
+* Integer_Arithmetic_ALU  
+
+** Goal 
+   - Design a simple integer arithmetic ALU that can add and substract 2 numbers.  
+** Specifications
+   - The 2 inputs are A and B
+   - The ALU itself will have an op-code that will be used to specifiy an addition or subtraction operator
+   - The B input however is the output of a barrel shifter that has other various parameters, including the enable, left and right shift, as well as shift amount.
+   - The program will contain testcases that will later be simulated and the time data will be traced using GTKWAVE
+
