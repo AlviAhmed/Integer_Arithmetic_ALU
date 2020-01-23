@@ -6,13 +6,16 @@
    - The 2 inputs are A and B
    - The ALU itself will have an op-code that will be used to specifiy an addition or subtraction operator
    - The B input however is the output of a barrel shifter that has other various parameters, including the enable, left and right shift, as well as shift amount.
-   - The program will contain testcases that will later be simulated and the time data will be traced using GTKWAVE
+   - The program will contain testcases that will later be simulated and the time data will be traced using GTKWave
  
      
 
 ** Figures  
-#+CAPTION: Screen Shot of Simulation in GTKwaves
 #+NAME:   fig:SED-HR4049
 [[./gtkwaves.png]]
-Screen Shot of Simulation in GTKwaves
+Screen Shot of Simulation in GTKWave 
+
+
+[[./lab1_aluwave-1.png]]
+Screen Shot of Simulation in GTKWave
 
