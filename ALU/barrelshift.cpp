@@ -1,5 +1,4 @@
 #include "barrelshift.h" 
-
 void barrel_shift :: barrel_method(){
 	sc_uint<8> data;     
 	sc_uint<8> data_temp;    
