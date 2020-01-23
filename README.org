@@ -13,9 +13,11 @@
 ** Figures  
 #+NAME:   fig:SED-HR4049
 [[./gtkwaves.png]]
-Screen Shot of Simulation in GTKWave 
+ 
+Screen Shot of Simulation in GTKWave  
 
 
-[[./lab1_aluwave-1.png]]
-Screen Shot of Simulation in GTKWave
+[[./lab1_aluwave-1.png]] 
+
+Image of waves in GTKWave
 
