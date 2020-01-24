@@ -7,11 +7,17 @@
    - The ALU itself will have an op-code that will be used to specifiy an addition or subtraction operator
    - The B input however is the output of a barrel shifter that has other various parameters, including the enable, left and right shift, as well as shift amount.
    - The program will contain testcases that will later be simulated and the time data will be traced using GTKWave
- 
-     
+** Figures  and Tables 
 
-** Figures  and Tables
-#+NAME:   fig:SED-HR4049
+
+#+NAME:Table 1 ALU and Barrel Functionality  fig:SED-HR4049 
+| ALU |               | Barrel Shifter |     |                                       |
+| Op  | Functionality |             en | l_r | Functionality                         |
+| 0   | Substract     |              0 |   X | Pass Data through (shifting disabled) |
+| 1   | Addition      |              1 |   0 | Shift left by shift_amount            |
+| N/A | N/A           |              1 |   1 | Shift right by shift_amount           |
+
+
 [[./gtkwaves.png]]
  
 Screen Shot of Simulation in GTKWave  
