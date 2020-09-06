@@ -41,7 +41,9 @@ barrelshifter and ALU
 
 The following test cases were chosen to test every kind of combination and case for each port of the Integer Arithmatic ALU.  
 
-As can be seen from the images below the test cases worked out as planned and the results correlate with the predicted results shown in Table [[cases]]. 
+As can be seen from the images below the test cases worked out as
+planned and the results correlate with the predicted results shown in
+the table above.
 
 
 
