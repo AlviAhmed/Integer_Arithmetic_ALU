@@ -1,3 +1,5 @@
+//COE838 - Lab1 SystemC Intro
+// BarrelShift Unit Tutorial
 #ifndef ALU_H   //it is a guard feature, included in to prevent double declaration, this is in your C++ book you used to study
 #define ALU_H
 #include <systemc.h>       

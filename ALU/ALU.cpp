@@ -1,3 +1,4 @@
+//Alvi Ahmed 500696421
 #include "ALU.h"  
  sc_uint<8> output; 
  sc_uint<8> out_data; 
