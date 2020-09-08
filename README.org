@@ -1,4 +1,8 @@
 * Integer_Arithmetic_ALU  
+
+*Status:* Completed 
+*Type:* COE838 Lab
+
 ** Goal 
    - Design a simple integer arithmetic ALU that can add and substract 2 numbers.   
 
@@ -57,3 +61,6 @@ Screen Shot of Simulation in GTKWave
 
 Image of waves in GTKWave
 
+
+** Reference 
+- https://www.ee.ryerson.ca/~courses/coe838/labs/lab1.pdf
