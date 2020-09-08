@@ -1,19 +1,20 @@
-* Integer_Arithmetic_ALU  
+#+LaTeX_CLASS: mycustom 
 
+#+TITLE: Integer Arithmetic ALU
+#+AUTHOR: Alvi Ahmed
 *Status:* Completed 
 *Type:* COE838 Lab
 
-** Goal 
-   - Design a simple integer arithmetic ALU that can add and substract 2 numbers.   
+* Goal 
+  - Design a simple integer arithmetic ALU that can add and substract 2 numbers.   
 
-** Specifications
-   - The 2 inputs are A and B
-   - The ALU itself will have an op-code that will be used to specifiy an addition or subtraction operator
-   - The B input however is the output of a barrel shifter that has other various parameters, including the enable, left and right shift, as well as shift amount.
-   - The program will contain testcases that will later be simulated and the time data will be traced using GTKWave
-** Figures  and Tables 
-   
-*** ALU and Barrel Functionality   
+* Specifications
+  - The 2 inputs are A and B
+  - The ALU itself will have an op-code that will be used to specifiy an addition or subtraction operator
+  - The B input however is the output of a barrel shifter that has other various parameters, including the enable, left and right shift, as well as shift amount.
+  - The program will contain testcases that will later be simulated and the time data will be traced using GTKWave
+* Figures  and Tables 
+** ALU and Barrel Functionality   
 
 | ALU |               | Barrel Shifter |     |                                       |
 | Op  | Functionality |             en | l_r | Functionality                         |
@@ -24,7 +25,7 @@
 Table showing how the different values and parameters affect the functionality of the 
 barrelshifter and ALU
 
-*** Test Cases and Results 
+** Test Cases and Results 
 
  #+CAPTION: Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
  #+NAME: cases
@@ -50,8 +51,7 @@ planned and the results correlate with the predicted results shown in
 the table above.
 
 
-
-*** Images
+** Images
 [[./gtkwaves.png]]
  
 Screen Shot of Simulation in GTKWave  
@@ -59,6 +59,7 @@ Screen Shot of Simulation in GTKWave
 
 [[./aluwave-1.png]] 
 
-Image of waves in GTKWave
+Image of waves in GTK 
 
-
+* References 
+   - https://www.ee.ryerson.ca/~courses/coe838/labs/lab1.pdf
