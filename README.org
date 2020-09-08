@@ -62,5 +62,3 @@ Screen Shot of Simulation in GTKWave
 Image of waves in GTKWave
 
 
-** Reference 
-- https://www.ee.ryerson.ca/~courses/coe838/labs/lab1.pdf
