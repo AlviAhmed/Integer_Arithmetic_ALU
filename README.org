@@ -27,10 +27,6 @@ barrelshifter and ALU
 
 ** Test Cases and Results 
 
- #+CAPTION: Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
- #+NAME: cases
-
-
 | Ports               | Results |         |         |         |         |         |         |
 |---------------------+---------+---------+---------+---------+---------+---------+---------|
 | Ain                 | 15 (0F) | 20 (14) | 30 (1E) | 40 (28) | 50 (32) | 60 (3C) | 10 (0A) |
@@ -42,6 +38,7 @@ barrelshifter and ALU
 | op                  | 0       | 1       | 1       | 0       | 0       | 1       | 1       |
 |---------------------+---------+---------+---------+---------+---------+---------+---------|
 | Final Results       | 5 (05)  | 24 (18) | 42 (2A) | 0 (00)  | 10 (0A) | 61 (3D) | 42 (2A) |
+Table of Cases used in the simulation, results in the format of Decimal (Hexadecimal) 
 
 
 The following test cases were chosen to test every kind of combination and case for each port of the Integer Arithmatic ALU.  
@@ -53,12 +50,10 @@ the table above.
 
 ** Images
 [[./gtkwaves.png]]
- 
 Screen Shot of Simulation in GTKWave  
 
 
 [[./aluwave-1.png]] 
-
 Image of waves in GTK 
 
 * References 
