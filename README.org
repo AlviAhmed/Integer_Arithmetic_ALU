@@ -16,11 +16,15 @@
 * Figures  and Tables 
 ** ALU and Barrel Functionality   
 
-| ALU |               | Barrel Shifter |     |                                       |
-| Op  | Functionality |             en | l_r | Functionality                         |
++-----+---------------+----------------+-----+---------------------------------------+
+|      ALU            |                  Barrel Shifter                              |
++-----+---------------+----------------+-----+---------------------------------------+
+| Op  | Functionality |             en | l_r | Functionality                         | 
++-----+---------------+----------------+-----+---------------------------------------+
 | 0   | Substract     |              0 |   X | Pass Data through (shifting disabled) |
 | 1   | Addition      |              1 |   0 | Shift left by shift_amount            |
-| N/A | N/A           |              1 |   1 | Shift right by shift_amount           | 
+| N/A | N/A           |              1 |   1 | Shift right by shift_amount           |
++-----+---------------+----------------+-----+---------------------------------------+
 
 Table showing how the different values and parameters affect the functionality of the 
 barrelshifter and ALU
