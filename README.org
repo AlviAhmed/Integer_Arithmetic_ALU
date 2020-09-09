@@ -56,5 +56,3 @@ Screen Shot of Simulation in GTKWave
 [[./aluwave-1.png]] 
 Image of waves in GTK 
 
-* References 
-   - https://www.ee.ryerson.ca/~courses/coe838/labs/lab1.pdf
