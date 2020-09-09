@@ -54,6 +54,7 @@ the table above.
 Screen Shot of Simulation in GTKWave  
 
 
-[[./aluwave-1.png]] 
+[[./aluwave-1.png]]  
+
 Image of waves in GTK 
 
